@@ -1,0 +1,66 @@
+Algorithms of operations on arrays.
+
+Traverse_array
+
+    A: Array
+    UB: Upper_bound
+    LB: Lower_bound
+    I: Loop counter
+
+    Step 1: Initialize I to LB
+    Step 2: Repeat Step 3 for I = LB to I = UB
+    Step 3: Display A[I]
+    Step 4: Exit
+
+
+Search_array
+
+    A: Array
+    S: Element to search for in the array
+    LB: Lower_bound
+    UB: Upper_bound
+    I: Loop counter
+
+    Step 1: Initialize I to LB
+    Step 2: Repeat Step 3 for I = LB to I = UB
+    Step 3: If A[I] equals S then
+                Display "Found !"
+                Go to Step 5
+    Step 4: Display "Not found !"
+    Step 5: Exit
+
+
+Sort_array
+
+    A: Array
+    LB: Lower_bound
+    UB: Upper_bound
+    I: Loop counter
+    S: Swapping flag
+
+    Step 1: Repeat Step 2, 3 and 4 until S is FALSE
+    Step 2: Set S to FALSE
+    Step 3: Initialize I to LB
+    Step 4: Repeat Step 5 for I = LB to I = UB - 1
+    Step 5: If A[I] > A[I + 1] then
+                Swap A[I] with A[I + 1]
+                Set S to TRUE
+    Step 6: Exit
+
+
+Insert_in_array
+
+    A: Array
+    LB: Lower_bound (starts at 0)
+    T: Total number of element (starts at 1)
+    I: Loop counter
+    E: Element to be inserted
+    P: Position to insert E in A (starts at 1)
+
+    Step 1: If (P < (LB + 1)) OR (P > T) then
+                Display "Invalid Position !"
+                Go to Step 
+    Step 3: Initialize I to LB
+    Step 4: Repeat Step  for I = T - 1 to I = P - 1
+    Step 5: A[I]
+    Step 6: Exit
